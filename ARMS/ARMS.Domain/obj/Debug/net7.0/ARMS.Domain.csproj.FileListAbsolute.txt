@@ -1,0 +1,12 @@
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.deps.json
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.dll
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.pdb
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.csproj.AssemblyReference.cache
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.AssemblyInfoInputs.cache
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.AssemblyInfo.cs
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.dll
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\refint\ARMS.Domain.dll
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.pdb
+C:\Users\tudor\Desktop\ARMS\ARMS\ARMS.Domain\obj\Debug\net7.0\ref\ARMS.Domain.dll
