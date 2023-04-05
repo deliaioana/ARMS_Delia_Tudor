@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uGPcyfObgxkAzepwWn0M7u3MDtXUd/KJjdjzT+5Z98A=",
+  "Source": "ARMS.WebAPI",
+  "BasePath": "_content/ARMS.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
