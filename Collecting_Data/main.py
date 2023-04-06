@@ -1,4 +1,7 @@
+import json
 import re
+import pandas as pd
+import requests
 
 from list_of_events import ListOfEvents
 from event import Event
@@ -73,16 +76,17 @@ def populate_database_with_data():
     call_post_api_for_expectancy_data()
 
 
+def get_csv():
+    response = requests.get(url='https://localhost:7001/api/Events', verify=False)
+    json_string = str(json.dumps(response.json()))
+    df = pd.read_json(json_string)
+    df.to_csv('db.csv')
+
+
 def run():
-    gather_data()
-    populate_database_with_data()
+    # gather_data()
+    # populate_database_with_data()
+    get_csv()
 
 
-# run()
-
-test_events = ListOfEvents()
-e = Event('ok', 1400, 'sd', [dict(name='okok')])
-e2 = Event('ok', 4545, 'sd', [dict(name='okok2222')])
-test_events.add_event(e)
-test_events.add_event(e2)
-test_events.call_post_api_for_events()
+run()
