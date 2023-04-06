@@ -7,6 +7,7 @@ namespace ARMS.Application
     {
         public DbSet<Event> Events { get; }
         public DbSet<Country> Countries { get; }
+        public DbSet<LifeExpectancy> LifeExpectancies { get; }
 
         void Save();
     }
