@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lE1BNMePzXeltTcE87766o0ciZKOSxKuJgz1BlpDYNtOOjJVcHiKq3i+WLZGPJEbrqLOmBRqMPh+oi/J7w0xRg==",
+  "dgSpecHash": "nayoaf27LRKvGC9NEgVGv4RLiCYjRtFYc3puSQ5a9+H0z5z4v5WJtF7YLQuPPmWsEkPbY2kTLKUcshwWXxWDiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tudor\\Desktop\\ARMS\\ARMS\\ARMS.Application\\ARMS.Application.csproj",
+  "projectFilePath": "C:\\Users\\tudor\\Desktop\\ARMS\\ARMS_Delia_Tudor\\ARMS\\ARMS.Application\\ARMS.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tudor\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\tudor\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",

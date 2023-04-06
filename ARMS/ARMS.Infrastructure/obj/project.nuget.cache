@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oQFef8fc5icwYBV+S5oT6iS4OVq+MNCDAlduvWKaDGI8pvzRLjeUbLcJplLF4HqsXqVEdPeK+8K6f9nSSM+s2w==",
+  "dgSpecHash": "dK7FsDp/gfmKRmYIDOHkuVQLSnDcllX4GumgJW9s/NrerB25XEhNGyguMa1umexQQnLsYoSP83q0RmWj3AF6sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tudor\\Desktop\\ARMS\\ARMS\\ARMS.Infrastructure\\ARMS.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\tudor\\Desktop\\ARMS\\ARMS_Delia_Tudor\\ARMS\\ARMS.Infrastructure\\ARMS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tudor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tudor\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.4\\microsoft.data.sqlite.core.7.0.4.nupkg.sha512",

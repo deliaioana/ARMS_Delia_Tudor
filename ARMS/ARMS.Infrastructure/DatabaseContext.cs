@@ -9,6 +9,7 @@ namespace ARMS.Infrastructure
         public DbSet<Event> Events => Set<Event>();
 
         public DbSet<Country> Countries => Set<Country>();
+        public DbSet<LifeExpectancy> LifeExpectancies => Set<LifeExpectancy>();
 
         public void Save()
         {

@@ -59,11 +59,47 @@ namespace ARMS.Infrastructure.Migrations
                     b.ToTable("Events");
                 });
 
+            modelBuilder.Entity("ARMS.Domain.LifeExpectancy", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("CountryFieldId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<float>("FemaleLifeExpectancy")
+                        .HasColumnType("REAL");
+
+                    b.Property<float>("MaleLifeExpectancy")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CountryFieldId");
+
+                    b.ToTable("LifeExpectancies");
+                });
+
             modelBuilder.Entity("ARMS.Domain.Country", b =>
                 {
                     b.HasOne("ARMS.Domain.Event", null)
                         .WithMany("Countries")
                         .HasForeignKey("EventId");
+                });
+
+            modelBuilder.Entity("ARMS.Domain.LifeExpectancy", b =>
+                {
+                    b.HasOne("ARMS.Domain.Country", "CountryField")
+                        .WithMany()
+                        .HasForeignKey("CountryFieldId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CountryField");
                 });
 
             modelBuilder.Entity("ARMS.Domain.Event", b =>

@@ -1,7 +1,6 @@
 ﻿using ARMS.Application.Repositiories;
 using ARMS.Domain;
 using ARMS.WebAPI.Dtos;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ARMS.WebAPI.Controllers
