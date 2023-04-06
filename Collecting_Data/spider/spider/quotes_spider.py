@@ -21,6 +21,6 @@ class QuotesSpider(Spider):
 
     def parse(self, response):
         page = response.url.split("/")[-1]
-        filename = f'{page}.html'
+        filename = f'{page}.txt'
         Path(filename).write_bytes(response.body)
         self.log(f'Saved file {filename}')

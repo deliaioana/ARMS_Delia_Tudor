@@ -12,7 +12,7 @@ def get_mentioned_countries(description):
 
     with open('countries.txt') as f:
         for country in f:
-            country.replace('\n', '')
+            country = country.replace('\n', '')
             if country in description:
                 countries.append(dict(name=country))
 
@@ -20,24 +20,23 @@ def get_mentioned_countries(description):
 
 
 def gather_events_data_from_file(file_name):
-    with open(file_name, encoding="utf8") as f:
+    with open(file_name, encoding='utf8') as f:
         year = None
         event_counter = 0
 
         for line in f:
             if '<h3>' in line:
-                match = re.match(r'.title=\"(\d+)\".', line)
-                print('before match')
+                match = re.match(r'.*title=\"(\d+)\".*', line)
                 if match:
-                    print('match')
                     year = match.group(1)
                     event_counter = 0
 
             if year:
                 if '<li>' in line:
                     event_counter += 1
-                    content = re.findall(r'>(.)<', line)
-                    description = ' '.join(content)
+
+                    content = re.findall(r'>(.*?)<', line)
+                    description = ''.join(content)
                     countries = get_mentioned_countries(description)
 
                     name = f'{year} Event {event_counter}'
@@ -47,9 +46,9 @@ def gather_events_data_from_file(file_name):
 
 def gather_events_data():
     for year in range(15, 21):
-        file_name = f'spider/spider/Timeline_of_the_{str(year)}th_century.html'
+        file_name = f'spider/spider/Timeline_of_the_{str(year)}th_century.txt'
         gather_events_data_from_file(file_name)
-    gather_events_data_from_file(f'spider/spider/Timeline_of_the_21st_century.html')
+    gather_events_data_from_file(f'spider/spider/Timeline_of_the_21st_century.txt')
 
 
 def gather_life_expectancy_data():
@@ -79,4 +78,11 @@ def run():
     populate_database_with_data()
 
 
-run()
+# run()
+
+test_events = ListOfEvents()
+e = Event('ok', 1400, 'sd', [dict(name='okok')])
+e2 = Event('ok', 4545, 'sd', [dict(name='okok2222')])
+test_events.add_event(e)
+test_events.add_event(e2)
+test_events.call_post_api_for_events()
