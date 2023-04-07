@@ -117,17 +117,29 @@ def populate_database_with_data():
     call_post_api_for_expectancy_data()
 
 
-def get_csv():
+def get_events_csv():
     response = requests.get(url='https://localhost:7001/api/Events', verify=False)
     json_string = str(json.dumps(response.json()))
     df = pd.read_json(json_string)
-    df.to_csv('db.csv')
+    df.to_csv('events.csv')
+
+
+def get_expectancies_csv():
+    response = requests.get(url='https://localhost:7001/api/LifeExpectancies', verify=False)
+    json_string = str(json.dumps(response.json()))
+    df = pd.read_json(json_string)
+    df.to_csv('expectancies.csv')
+
+
+def get_csv_files():
+    get_events_csv()
+    get_expectancies_csv()
 
 
 def run():
-    gather_data()
-    populate_database_with_data()
-    get_csv()
+    # gather_data()
+    # populate_database_with_data()
+    get_csv_files()
 
 
 run()
