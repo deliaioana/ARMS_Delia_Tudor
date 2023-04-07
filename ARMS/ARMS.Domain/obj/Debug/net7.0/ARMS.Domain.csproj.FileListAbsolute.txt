@@ -22,3 +22,15 @@ C:\Users\tudor\Desktop\ARMS\ARMS_Delia_Tudor\ARMS\ARMS.Domain\obj\Debug\net7.0\A
 C:\Users\tudor\Desktop\ARMS\ARMS_Delia_Tudor\ARMS\ARMS.Domain\obj\Debug\net7.0\refint\ARMS.Domain.dll
 C:\Users\tudor\Desktop\ARMS\ARMS_Delia_Tudor\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.pdb
 C:\Users\tudor\Desktop\ARMS\ARMS_Delia_Tudor\ARMS\ARMS.Domain\obj\Debug\net7.0\ref\ARMS.Domain.dll
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.deps.json
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.dll
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\bin\Debug\net7.0\ARMS.Domain.pdb
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.csproj.AssemblyReference.cache
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.AssemblyInfoInputs.cache
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.AssemblyInfo.cs
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.csproj.CoreCompileInputs.cache
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.dll
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\refint\ARMS.Domain.dll
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ARMS.Domain.pdb
+D:\1_SCOALA\Anul_3_Semestrul_2\ARMS\Project\ARMS\ARMS.Domain\obj\Debug\net7.0\ref\ARMS.Domain.dll

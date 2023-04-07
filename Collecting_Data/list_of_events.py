@@ -8,3 +8,7 @@ class ListOfEvents:
     def call_post_api_for_events(self):
         for event in self.events:
             event.call_post_api()
+
+    def print_events(self):
+        for event in self.events:
+            event.print_event()
