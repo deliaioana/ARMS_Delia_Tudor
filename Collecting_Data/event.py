@@ -18,3 +18,6 @@ class Event:
     def call_post_api(self):
         x = requests.post(json=self.json_string, url='https://localhost:7001/api/Events', verify=False)
         print(x.status_code, x.text)
+
+    def print_event(self):
+        print(self.json_string)
